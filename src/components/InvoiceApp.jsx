@@ -38,13 +38,11 @@ export const InvoiceApp = () => {
         <tbody>
           {items.map((i) => {
             return (
-              <>
-                <tr>
-                  <td>{i.product}</td>
-                  <td>{i.price}</td>
-                  <td>{i.quantity}</td>
-                </tr>
-              </>
+              <tr key={i.id}>
+                <td>{i.product}</td>
+                <td>{i.price}</td>
+                <td>{i.quantity}</td>
+              </tr>
             );
           })}
         </tbody>

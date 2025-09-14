@@ -17,16 +17,19 @@ export const invoice = {
   },
   items: [
     {
+      id: 1,
       product: "Cpu Intel i7",
       price: 499,
       quantity: 1,
     },
     {
-      product: "Corsair Keyboard Mecanico",
+      id: 2,
+      product: "Keyboard Mecanico",
       price: 150,
       quantity: 1,
     },
     {
+      id: 3,
       product: "Monitor Asus",
       price: 350,
       quantity: 1,
